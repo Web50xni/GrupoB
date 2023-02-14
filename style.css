@@ -2,6 +2,15 @@
     padding: 0;
     margin: 0;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    background-color:darkseagreen;
+    flex: 1;
+}
 header{
     background-color: papayawhip;
     width: 100%;
@@ -13,4 +22,15 @@ header{
 header span{
     font-size: 20px;
     font-weight: bold;
+}
+
+footer{
+    background-color: burlywood;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    margin: 8px;
+    list-style: none;
 }
