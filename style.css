@@ -14,3 +14,13 @@ header span{
     font-size: 20px;
     font-weight: bold;
 }
+
+.ti1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.te {
+    padding: 20%;
+}
