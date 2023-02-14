@@ -24,6 +24,7 @@ header span{
     font-weight: bold;
 }
 
+
 footer{
     background-color: burlywood;
 }
@@ -33,4 +34,14 @@ footer ul{
 footer ul li{
     margin: 8px;
     list-style: none;
+
+.ti1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.te {
+    padding: 20%;
+
 }
